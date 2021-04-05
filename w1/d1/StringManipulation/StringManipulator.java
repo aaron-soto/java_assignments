@@ -7,8 +7,14 @@ public class StringManipulator {
     public int getIndexOrNull(String word, char letter) {
         return word.indexOf(letter);
     }
-    public int getIndexOrNull(String word, String searchWord) {
-        return word.indexOf(searchWord);
+    public Integer getIndexOrNull(String word, String searchWord) {
+        // return word.indexOf(searchWord);
+        Integer index = word.indexOf(searchWord);
+        if (index > 0) {
+            return index;
+        } else {
+            return null;
+        }
     }
     public String concatSubstring(String word, int startIdx, int endIdx, String secondString) {
         String subStr = word.substring(startIdx, endIdx);
