@@ -8,5 +8,4 @@ public class PythagoreanTheorem {
         double hypotenuse = Math.sqrt(Math.pow(legA, 2) + Math.pow(legB, 2));
         System.out.println("Hypotenuse: " + hypotenuse);
     }
-    
 }
