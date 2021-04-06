@@ -41,7 +41,7 @@ public class Basics {
             sum += element;
             arrCount++;
         }
-        return (sum / arrCount);
+        return ((double)sum / arrCount);
     }
     public ArrayList<Integer> arrayOddTo255() {
         ArrayList<Integer> oddValues = new ArrayList<Integer>();
